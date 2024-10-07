@@ -1,0 +1,15 @@
+name: LavaSponge
+version: '1.0.0'
+main: winlyps.lavaSponge.LavaSponge
+api-version: '1.16'
+authors: [ Winlyps ]
+commands:
+  lavasponge:
+    description: Gives the player a Lava Sponge.
+    usage: /lavasponge
+    permission: sponge.lavasponge
+    permission-message: You do not have permission to use this command!
+permissions:
+  sponge.lavasponge:
+    description: Allows the player to use the /lavasponge command.
+    default: op
